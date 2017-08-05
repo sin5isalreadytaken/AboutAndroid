@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sin5.aboutanimation.MainActivity">
+
+    <TextView
+        android:text="alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:id="@+id/alphaanimation"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotate"
+        android:textSize="28dp"
+        android:id="@+id/rotateanimation"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translate"
+        android:id="@+id/translateanimation"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scale"
+        android:id="@+id/scaleanimation"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setanimation"
+        android:text="set"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="custom"
+        android:id="@+id/customanimation"
+        android:textSize="28dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
